@@ -2,7 +2,7 @@ Package.describe({
 	summary: "node-csv npm packaged for meteor.",
 	version: "0.3.7",
 	git: "https://github.com/max-b/meteor-node-csv.git",
-	name: "maxb:node-csv-npm"
+	name: "maxb:meteor-node-csv"
 });
 
 Package.on_use(function (api) {
