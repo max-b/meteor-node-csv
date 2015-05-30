@@ -1,8 +1,8 @@
 Package.describe({
 	summary: "node-csv npm packaged for meteor.",
 	version: "0.3.7",
-	git: "https://github.com/Dsyko/meteor-node-csv.git",
-	name: "dsyko:node-csv-npm"
+	git: "https://github.com/max-b/meteor-node-csv.git",
+	name: "maxb:node-csv-npm"
 });
 
 Package.on_use(function (api) {
@@ -17,4 +17,4 @@ Package.on_use(function (api) {
 	}
 });
 
-Npm.depends({"csv":"0.3.6"});
+Npm.depends({"csv":"0.4.2"});
